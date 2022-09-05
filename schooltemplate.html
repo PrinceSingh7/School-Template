@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Web Template</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .wrapper{
+            background: url(school.jpeg) no-repeat center center;
+            min-height: 30rem;
+        }
+        nav {
+            width: 100%;
+            height: 80px;
+            background-color: #0005;
+            line-height: 80px
+        }
+        nav ul {
+            float: right;
+            margin: 0;
+            margin-right: 1.9rem;
+        }
+        nav ul li {
+            list-style-type: none;
+            display: inline-block;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: #fff;
+            padding: 20px;
+        }
+        img{
+            width: 2.5%;
+            margin-left: 1.9rem;
+            margin-top: -4%;
+        }
+        .section {
+            width: 80%;
+            margin : auto;
+            overflow: hidden;
+            margin-top: 4%;
+        }
+        .section h1{
+            line-height: 50px;
+            color: #fff;
+        }
+        .section p{
+            color: gray;
+        }
+        .btn-1{
+            background-color: orangered;
+            padding: 0.7rem 1rem;
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+        }
+        .features{
+            margin: 4%;
+            margin-bottom: 2%;
+        }
+        .features button{
+            padding: 0.7rem 2rem;
+            margin-left: 2rem;
+            font-size: 1.2rem;
+            opacity: 0.7;
+        }
+        .showcase h1{
+            margin-top: 5%;
+            margin-bottom: 5%;
+            text-align: center;
+        }
+        #courses{
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+        }
+        #courses img{
+            width: 200px;
+            border-radius: 10px;
+            border: 2px solid #000;
+            margin: auto;
+        }
+        .apply{
+            margin-top: 4%;
+            background-color: orangered;
+            padding: 0.7rem 1rem;
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+        }
+        footer{
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1.2rem;
+            margin-top: 4%;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <nav>
+            <img src="csjm.jpg" alt="logo">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">COURSES</a></li>
+                <li><a href="#">EVENTS</a></li>
+                <li><a href="#">GALLERY</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">PAGES</a></li>
+                <li><a href="#">CONTACTS</a></li>
+            </ul>
+        </nav>
+        <div class="section">
+            <h1>WE ENSURE A BETTER EDUCATION <br> FOR A BETTER WORLD</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta possimus quis, repellat architecto repudiandae, soluta alias fuga, odit debitis veritatis accusamus! Amet, inventore, quidem voluptas doloribus veniam voluptate blanditiis officiis, corporis quia magnam eos suscipit ad? Numquam incidunt quia quasi esse amet neque unde sequi?</p>
+            <a href="#"><button class="btn-1">GET STARTED</button></a>
+       
+            <div class="features">
+                <button>Learn Online Classes</button>
+                <button>Bridge Courses</button>
+                <button>Huge Library</button>
+                <button>Practical Exposure</button>
+            </div>
+        </div>
+    </div>
+    <div class="showcase">
+        <h1>POPULAR COURESES WE OFFER</h1>
+        <div id="courses">
+            <div class="cs">
+                <h3>Computer Science</h3>
+                <img src="cse.jpeg" alt="photo"><br>
+                <a href="#"><button class="apply">Apply Here</button></a>
+            </div>
+            <div class="business">
+                <h3>Business Studies</h3>
+                <img src="business.jpeg" alt="photo"><br>
+                <a href="#"><button class="apply">Apply Here</button></a>
+            </div>
+            <div class="journalism">
+                <h3>Media and Journalism</h3>
+                <img src="journalism.jpeg" alt="photo"><br>
+                <a href="#"><button class="apply">Apply Here</button></a>
+            </div>
+            <div class="arts">
+                <h3>Arts & Humanities</h3>
+                <img src="arts.jpeg" alt="photo"><br>
+                <a href="#"><button class="apply">Apply Here</button></a>
+            </div>
+            <div class="medical">
+                <h3>Medical Science</h3>
+                <img src="medical.jpeg" alt="photo"><br>
+                <a href="#"><button class="apply">Apply Here</button></a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Copyright &copy; 2019, Code Addict</p>
+    </footer>
+</body>
+</html>
