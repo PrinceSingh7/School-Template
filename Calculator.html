@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        body {
+            text-align: center;
+            margin: 15%;
+        }
+        .wrap {
+            width: 290px;
+            background-color: rgb(3, 22, 55);
+            margin-left: 400px;
+            margin-right: 400px;
+        }
+        #cal {
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            color: white;
+           
+        }
+        button {
+            border: none;
+            padding: 14px;
+            background-color:  rgb(3, 22, 55) ;
+            color: white;
+            font-size: 17px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        
+        #screen {
+            padding: 50px;
+            background-color: rgb(3, 22, 55);
+            border: none;
+            font-size: 16px;
+            text-align: right;
+        }
+        #plus {
+            padding-top: 35px;
+            padding-bottom: 35px;
+            background-color: red;
+            border-radius: 5px;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <form action="action./php">
+            <input type="text" id="screen" placeholder="0">
+            <table id="cal">
+                <tr>
+                    <td><button type="button">AC</button></td>
+                    <td><button type="button">%</button></td>
+                    <td><button type="button">/</button></td>
+                    <td><button type="button">*</button></td>
+                </tr>
+                <tr>
+                    <td><button type="button">7</button></td>
+                    <td><button type="button">8</button></td>
+                    <td><button type="button">9</button></td>
+                    <td><button type="button">-</button></td>
+                </tr>
+
+                <tr>
+                    <td><button type="button">4</button></td>
+                    <td><button type="button">5</button></td>
+                    <td><button type="button">6</button></td>
+                    <td><button type="button">.</button></td>
+                </tr>
+
+                <tr>
+                    <td><button type="button">1</button></td>
+                    <td><button type="button">2</button></td>
+                    <td><button type="button">3</button></td>
+                    <td rowspan="2"><button type="button" id="plus" onclick="add()">+</button></td>
+                </tr>
+
+                <tr>
+                    <td><button type="button">0</button></td>
+                    <td><button type="button">=</button></td>
+                    <td><button type="button">DEL</button></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
